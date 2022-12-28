@@ -23,22 +23,27 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
- $string['pluginadministration'] = 'External exam reminder administration';
- $string['pluginname'] = 'External exam reminders';
- $string['modulename'] = 'Askminder';
- $string['modulenameplural'] = 'Activities';
  $string['activities'] = 'Askminders';
+ $string['availability'] = 'Always available';
  $string['askminderopen'] = 'Askminder open';
  $string['askminderclose'] = 'Askminder close';
- $string['general'] = 'General';
- $string['name'] = 'Name of reminder';
- $string['maximumchars'] = '255';
  $string['description'] = 'This is only a t-t-t-t-t-test';
- $string['availability'] = 'Always available';
- $string['name_help'] = 'Help will always be given to those who ask for it';
- $string['name_question'] = 'Preferred form of address?';
  $string['exam_question'] = 'When do you plan on taking your exam?';
- $string['yesno_question'] = 'Are you going to take the exam soon?';
+ $string['general'] = 'General';
+ $string['maximumchars'] = '255';
  $string['message'] = 'Message to students';
  $string['message_help'] = 'This will be displayed to students above a date-time form';
- $string['empty2'] = 'Preferred form of address?';
+ $string['modulename'] = 'Askminder';
+ $string['modulenameplural'] = 'Activities';
+ $string['name'] = 'Name of reminder';
+ $string['name_help'] = 'Help will always be given to those who ask for it';
+ $string['name_question'] = 'Preferred form of address?';
+ $string['pluginadministration'] = 'External exam reminder administration';
+ $string['pluginname'] = 'External exam reminders';
+ $string['questiontext'] = 'What you want to say to them';
+ $string['schedule_emails'] = 'Check for student exam dates';
+ $string['sendemail'] = 'Send feedback request email';
+ $string['yesno_question'] = 'Are you going to take the exam soon?';
+
+ $string['empty'] = 'blank';
+ 

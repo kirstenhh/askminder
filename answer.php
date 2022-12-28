@@ -7,14 +7,19 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-//See all existing askminders
-
 require_once('../../config.php');
+//Not using
+
+//Answer the askminder
 $url = new moodle_url('/mod/askminder/answer.php');
 $PAGE->set_url($url);
 $PAGE->set_context(\context_system::instance());
 $PAGE->set_title('Respond');
 
+
+$askminder = $DB->get_record("askminder", array("id" => $cm->instance), '*', MUST_EXIST);
+echo $askminder->name;
+echo 'hi';
 $mform =& $this->_form;
 
 $mform->addElement('text', 'name', get_string('name_question', 'askminder'), ['size'=>'64']);

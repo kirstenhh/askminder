@@ -25,6 +25,8 @@
 require_once($CFG->dirroot.'/course/moodleform_mod.php');
 require_once($CFG->dirroot.'/mod/askminder/lib.php');
 
+
+//Create an askminder
 class mod_askminder_mod_form extends moodleform_mod {
   public static $datefieldoptions = array('optional' => true);
 
@@ -44,6 +46,7 @@ class mod_askminder_mod_form extends moodleform_mod {
         $mform->addRule('message', null, 'required', null, 'client');
         $mform->addRule('message', null, 'required', null, 'client');
         $mform->addHelpButton('message', 'message', 'askminder');
+
         // two yesno questions: Send email before, send email after
         // one link/text, to the After form (regular Feedback)
         $this->standard_intro_elements(get_string('description', 'feedback'));

@@ -13,7 +13,7 @@ require_once('../../config.php');
 $url = new moodle_url('/mod/askminder/manage_responses.php');
 $PAGE->set_url($url);
 $PAGE->set_context(\context_system::instance());
-$PAGE->set_title('A page for managing responses to an askminder');
+$PAGE->set_title('Askminder a');
 
 
 $minders = $DB->get_records('askminder_item', null, 'id');
